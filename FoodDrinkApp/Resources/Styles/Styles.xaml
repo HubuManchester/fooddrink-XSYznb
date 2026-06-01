@@ -24,8 +24,8 @@
     </Style>
 
     <Style TargetType="Button">
-        <Setter Property="TextColor" Value="{AppThemeBinding Light=#FFFFFF, Dark=#261307}" />
-        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#D9472B, Dark=#FFB15D}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light=#FFFFFF, Dark=#2C2E2D}" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#4CAF79, Dark=#FFB347}" />
         <Setter Property="FontFamily" Value="OpenSansRegular"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="FontAttributes" Value="Bold"/>
@@ -90,11 +90,11 @@
     </Style>
 
     <Style TargetType="Editor">
-        <Setter Property="TextColor" Value="{AppThemeBinding Light=#3A2518, Dark=#FFF2DF}" />
-        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#FFF9EF, Dark=#211A14}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light=#2C2E2D, Dark=#FFF2DF}" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#FFFFFF, Dark=#211A14}" />
         <Setter Property="FontFamily" Value="OpenSansRegular"/>
         <Setter Property="FontSize" Value="15" />
-        <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light=#9A7B63, Dark=#BFA58E}" />
+        <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light=#B4B8B6, Dark=#BFA58E}" />
         <Setter Property="MinimumHeightRequest" Value="48"/>
         <Setter Property="MinimumWidthRequest" Value="44"/>
         <Setter Property="VisualStateManager.VisualStateGroups">
@@ -260,7 +260,7 @@
     <Style TargetType="SearchBar">
         <Setter Property="TextColor" Value="{AppThemeBinding Light=#3A2518, Dark=#FFF2DF}" />
         <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light=#9A7B63, Dark=#BFA58E}" />
-        <Setter Property="CancelButtonColor" Value="{AppThemeBinding Light=#D9472B, Dark=#FFB15D}" />
+        <Setter Property="CancelButtonColor" Value="{AppThemeBinding Light=#4CAF79, Dark=#FFB15D}" />
         <Setter Property="BackgroundColor" Value="Transparent" />
         <Setter Property="FontFamily" Value="OpenSansRegular" />
         <Setter Property="FontSize" Value="15" />
@@ -413,16 +413,16 @@
     </Style>
 
     <Style TargetType="Shell" ApplyToDerivedTypes="True">
-        <Setter Property="Shell.BackgroundColor" Value="{AppThemeBinding Light=#FFF4E3, Dark=#120E0B}" />
+        <Setter Property="Shell.BackgroundColor" Value="{AppThemeBinding Light=#F8F6F3, Dark=#1C1C1E}" />
         <Setter Property="Shell.ForegroundColor" Value="{AppThemeBinding Light=#3A2518, Dark=#FFF2DF}" />
         <Setter Property="Shell.TitleColor" Value="{AppThemeBinding Light=#3A2518, Dark=#FFF2DF}" />
         <Setter Property="Shell.DisabledColor" Value="{AppThemeBinding Light=#DCC8B0, Dark=#4C3B2D}" />
         <Setter Property="Shell.UnselectedColor" Value="{AppThemeBinding Light=#9A7B63, Dark=#BFA58E}" />
         <Setter Property="Shell.NavBarHasShadow" Value="False" />
-        <Setter Property="Shell.TabBarBackgroundColor" Value="{AppThemeBinding Light=#FFF4E3, Dark=#120E0B}" />
-        <Setter Property="Shell.TabBarForegroundColor" Value="{AppThemeBinding Light=#D9472B, Dark=#FFB15D}" />
-        <Setter Property="Shell.TabBarTitleColor" Value="{AppThemeBinding Light=#D9472B, Dark=#FFB15D}" />
-        <Setter Property="Shell.TabBarUnselectedColor" Value="{AppThemeBinding Light=#9A7B63, Dark=#BFA58E}" />
+        <Setter Property="Shell.TabBarBackgroundColor" Value="{AppThemeBinding Light=#F8F6F3, Dark=#1C1C1E}" />
+        <Setter Property="Shell.TabBarForegroundColor" Value="{AppThemeBinding Light=#4CAF79, Dark=#FFB15D}" />
+        <Setter Property="Shell.TabBarTitleColor" Value="{AppThemeBinding Light=#4CAF79, Dark=#FFB15D}" />
+        <Setter Property="Shell.TabBarUnselectedColor" Value="{AppThemeBinding Light=#B4B8B6, Dark=#BFA58E}" />
     </Style>
 
     <Style TargetType="NavigationPage">
